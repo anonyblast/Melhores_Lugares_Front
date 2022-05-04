@@ -1,0 +1,40 @@
+.Footer {
+    background-color: #79018c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Footer-content-left, .Footer-content-right {
+    width: 30%;
+    height: 140px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.Footer-content-left a, .Footer-content-right a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.Footer-content-right-button {
+    background-color: #4C0070;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20pt;
+    width: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
