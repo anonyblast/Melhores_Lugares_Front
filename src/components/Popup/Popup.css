@@ -1,0 +1,97 @@
+.popup-surround{
+    /* width: 100vw;*/
+     height: 100vh;
+    /* filter: blur(8px);
+     -webkit-filter: blur(8px); */
+     position: fixed;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .popup {
+     width: 500px;
+     height: 500px;
+     border-radius: 12px;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     display: flex;
+     flex-direction: column;
+     padding: 25px;
+ }
+ 
+ .popup .title{
+     display: inline-block;
+     text-align: center;
+     margin-top: 10px;
+ }
+ 
+ .titleCloseBtn{
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .titleCloseBtn button{
+     background-color: transparent;
+     border: none;
+     font-size: 25px;
+     cursor: pointer;
+ }
+ 
+ .popup .body{
+     flex: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 1rem;
+     text-align: center;
+ }
+ 
+ .popup .footer{
+     flex: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .popup .footer button{
+     width: 150px;
+     height: 45px;
+     margin: 10px;
+     background-color: #79018c;
+     border-color: #79018c;
+     color: white;
+     border-radius: 8px;
+     font-size: 20px;
+     cursor: pointer;
+ }
+ 
+ #cancelBtn{
+     background-color: white;
+     color: #79018c; 
+ }
+ 
+ .margin-bottom{
+     margin-bottom: 15px;
+     border-radius: 8px;
+ }
+ 
+ /*
+ .popup-inner {
+     position:center;
+     height: 100%;
+     width: 100%;
+     background-color: white;
+     border-radius: 20px;
+     box-shadow: 0px 10px 40px #352e36;
+ }
+ 
+ .popup-inner .close-btn {
+     position: absolute;
+     top: 1px;
+     right: 18px;
+     background-color: #79018c;
+     border: 0;
+     color: white;
+ }
+ */

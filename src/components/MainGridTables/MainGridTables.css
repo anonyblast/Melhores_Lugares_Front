@@ -71,6 +71,34 @@
     border: 5px solid white;
 }
 
+.MainGridTables-content-table-number-cleaning{
+    width: 40px;
+    height: 40px;
+    background-color: #f8f804e8;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.MainGridTables-content-table-number-free{
+    width: 40px;
+    height: 40px;
+    background-color: #66ff00;
+    color: #ffffff;
+    font-size: 20pt;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
 .MainGridTables-content-table-icon {
     display: flex;
     flex-direction: row;
