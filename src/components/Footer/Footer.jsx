@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import FindInPageIcon from '@mui/icons-material/FindInPage';
-import FindInPage from '@mui/icons-material/FindInPage';
+import { FaBookOpen, FaInstagram, FaHome } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -9,13 +8,13 @@ function Footer() {
             <div className='Footer-content'>
                 <div className='Footer-content-left'>
                     <title>Restaurant</title>
-                    <p>Acesse aqui o <a href="">Manual dos Melhores Lugares</a><FindInPage/></p>
-                    <p>Siga o nosso conteúdo no <a>Instagram!</a></p>
-                    <p>Conheça as novidades na <a>Home</a></p>
+                    <p><FaBookOpen /> Acesse aqui o <a>Manual dos Melhores Lugares</a></p>
+                    <p><FaInstagram /> Siga o nosso conteúdo no <a>Instagram!</a></p>
+                    <p><FaHome /> Conheça as novidades na Home</p>
                 </div>
                 <div className='Footer-content-right'>
                     <p>Para um restaurante sem <b>FILAS</b></p>
-                    <div className='Footer-content-right-button'><a href="">Assine já</a></div>
+                    <div className='Footer-content-right-button'>Assine já</div>
                 </div>
             </div>
             <div className='Footer-content-bottom'>

@@ -26,6 +26,12 @@
     text-decoration: none;
 }
 
+.Footer-content-left p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .Footer-content-right-button {
     background-color: #4C0070;
     color: whitesmoke;

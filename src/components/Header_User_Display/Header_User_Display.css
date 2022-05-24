@@ -1,0 +1,8 @@
+.header_user_display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e3e3e3;
+}

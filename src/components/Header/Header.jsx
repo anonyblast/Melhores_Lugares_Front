@@ -1,6 +1,8 @@
 import React from 'react';
-import GroupsIcon from '@mui/icons-material/Groups';
+import { BsFillPeopleFill } from "react-icons/bs";
 import './Header.css';
+import Login_Modal from '../Login_Modal/Login_Modal';
+
 
 function Header() {
     return (
@@ -10,8 +12,7 @@ function Header() {
                 <img className='Outback' src='images/Outback-logo.png'/>
             </div>
             <div className='GetStarted'>
-                <p>Entrar na <b>FILA!</b></p>
-                <GroupsIcon fontSize='small'/>
+                <Login_Modal />
             </div>
         </div>
     );

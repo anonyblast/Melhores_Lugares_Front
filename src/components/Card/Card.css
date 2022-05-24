@@ -1,0 +1,53 @@
+.Card {
+    background-color: #DFDFDE;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 50px 5px 5px 5px;
+}
+
+.Card-number {
+    width: 40px;
+    height: 40px;
+    background-color: #FF0000;
+    font-size: 15pt;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.Card-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.Card-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    margin: 10px
+}
+
+.Card-icon span {
+    margin-left: 5px;
+}
+
+.Ocupado {
+    background-color: #FF0000;
+}
+
+.Livre {
+    background-color: #00FF00;
+}
+
+.Limpando {
+    background-color: #FFFF00;
+}
