@@ -1,12 +1,11 @@
 import React from "react";
-import { IconContext } from "react-icons";
 import "./MainGridTables.css";
 import Card from "../Card/Card";
 
 function MainGridTables() {
   const cards = [
-    { status: "Limpando", quantity: "4 lugares" },
-    { status: "Ocupado", quantity: "4 lugares" }
+    { status: "Livre"},
+    { status: "Livre"}
   ];
 
   return (
@@ -33,7 +32,7 @@ function MainGridTables() {
           <Card
             number={index + 1}
             status={arr.status}
-            quantity={arr.quantity}
+            quantity='4 lugares'
           />
         ))}
       </div>

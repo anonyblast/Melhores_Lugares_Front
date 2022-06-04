@@ -14,6 +14,11 @@
     align-items: center;
 }
 
+.Footer-content-left p {
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
 .Footer-content-left, .Footer-content-right {
     width: 30%;
     height: 140px;
