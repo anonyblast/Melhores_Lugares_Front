@@ -5,7 +5,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import MainGridTables from "./components/MainGridTables/MainGridTables";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
 
 function App() {

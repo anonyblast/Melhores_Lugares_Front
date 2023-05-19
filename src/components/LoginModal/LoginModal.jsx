@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { ErrorMessage, Formik, Form, Field } from "formik";
 import * as yup from "yup";
-import "./Login_Modal.css";
+import "./LoginModal.css";
 import CubeAnimationModal from "../CubeAnimationModal/CubeAnimationModal";
 import { useForm } from 'react-hook-form';
 

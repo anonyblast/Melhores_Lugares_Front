@@ -1,16 +1,15 @@
 import React from 'react';
-import { BsFillPeopleFill } from "react-icons/bs";
 import './Header.css';
-import Login_Modal from '../Login_Modal/Login_Modal';
+import LoginModal from '../LoginModal/LoginModal' ;
 
 function Header() {
     return (
         <div className='Header'>
             <div className='Logo'>
-                <img className='ML' src='images/Logo.png'/>
+                <img className='ML' src='images/Logo.png' alt=''/>
             </div>
             <div className='GetStarted'>
-                <Login_Modal/>
+                <LoginModal/>
             </div>
         </div>
     );

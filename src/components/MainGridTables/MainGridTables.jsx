@@ -5,7 +5,13 @@ import Card from "../Card/Card";
 function MainGridTables() {
   const cards = [
     { status: "Livre"},
-    { status: "Livre"}
+    { status: "Livre"},
+    { status: "Ocupado"},
+    { status: "Limpando"},
+    { status: "Livre"},
+    { status: "Livre"},
+    { status: "Ocupado"},
+    { status: "Limpando"}
   ];
 
   return (
